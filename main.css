@@ -1,0 +1,50 @@
+#header {
+  margin: 0 auto;
+  height:315px;
+  text-align: center;
+}
+
+.header-element {
+  display: block;
+  height: 75%;
+}
+
+@media only screen and (max-width: 850px) {
+    /* For mobile phones: */
+    .container .div {
+      padding:0;
+    }
+    
+    .col-lg-6 {
+      padding:0;
+    }
+    
+    #header {
+      height: auto;
+    }
+    
+    #vid {
+      width: 100%;
+    }
+    
+     .embed-responsive embed-responsive-16by9 {
+      style="max-width:560px; max-height:75%;"
+    }   
+}
+
+@media only screen and (max-width: 1080px) {
+  
+    #header {
+      height: auto;
+      margin-top:15px;
+      margin-bottom: 15px;
+    }
+  
+    .navbar {
+      margin-bottom: 0px;
+    }
+    .embed-responsive embed-responsive-16by9 {
+      style="max-width:560px; max-height:50%;"
+    }
+    
+}
