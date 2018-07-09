@@ -1,9 +1,15 @@
+* {
+  background-color: #000;
+  color: #fff;
+}
+
 .header-element {
   margin: 0 auto;
   margin-bottom: 15px; 
   margin-top: 15px;
   text-align: center;
   display: block;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .header-element h1 {
@@ -13,6 +19,7 @@
   padding: 10px 0 35px 0;
   color: white;
   margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .header {
@@ -24,6 +31,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
+  min-height: 70%;
   margin-right: 0px;
   padding-top: 30px;
 }
@@ -43,8 +51,8 @@
 
 #donate {
   color: #fff;
-  background-color: #000;
-  border-color: #000;
+  background-color: #f00;
+  border-color: #e00;
   border-radius: .75rem;
   -webkit-transition: .5s all;   
   -webkit-transition-delay: .15s; 
@@ -59,7 +67,7 @@
 }
 
 #donate:hover {
-  color: #000;
+  color: #f00;
   background-color: #fff;
   border-color: #fff;
   -webkit-transition-delay: 0s;
@@ -73,6 +81,7 @@
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #arrow {
@@ -83,15 +92,30 @@
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-.dropdown-item {
-  color: rgba(255,255,255,.5);
+.blurb {
+  padding: 20px 50px 50px 20px;
+  margin-left: 60px;
+  margin-right: 50px;
+  margin: 0px 50px 40px 60px; 
 }
 
-.dropdown-item:hover {
-  color: white;
-  background-color: #343a40;
+.blurb h1 {
+  margin-bottom: 20px;
+}
+
+.navbar-collapse {
+  background-color: rgb(52, 58, 64);
+}
+
+.nav-item {
+  background-color: rgb(52, 58, 64);
+}
+#signature {
+  float: right;
+  margin-top: 20px;
 }
 
 @media only screen and (min-width: 1081px) {
