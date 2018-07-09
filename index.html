@@ -17,17 +17,13 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="https://www.yonderdynamics.space" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.yonderdynamics.space" target="_blank">
               About
             </a>
-            <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Team 1</a>
-              <a class="dropdown-item" href="#">Team 2</a>
-            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.yonderdynamics.space/urc/">URC</a>
+            <a class="nav-link" href="https://www.yonderdynamics.space/urc/" target="_blank">URC</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.yonderdynamics.space/new-page/">News</a>
@@ -53,13 +49,41 @@
           </div>
         </div>
         <div id="arrow-container">
-          <div id="arrow"></div>
+          <a href="#mission"><div id="arrow"></div></a>
         </div>        
       </div>
-      
+      <div id="mission" class="blurb">
+        <h1>Our Mission</h1>
+        <p>Yonder Dynamics is a student robotics organization at UC San Diego formally established in fall 2016. Last year, as our primary project, we designed and built an autonomous Mars rover 
+           for the annual University Rover Challenge (URC), a prestigious international competition for college students. Out of 82 semifinalist teams from 13 different countries, Yonder Dynamics 
+           made UC San Diego history by becoming the first team from our school and the only team from the UC system in 2017 to make it to the final round. For this achievement, we were featured 
+           on local news and by our school newsletter. Our rover Courage, built in a record three months, finished in 29th place.
+        </p>
+        <p>
+          Above all, our people are our mission. We believe in developing individuals from the ground up to prepare them for their future endeavors. Now with over sixty active members from a 
+          variety of backgrounds, we pride ourselves on inclusivity–robotics is for everyone.
+        </p>
+        <p id="signature">- Yonder Dynamics Team</p>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+      
+    <script>
+      $(document).ready(function(){
+        $("#arrow").on('click', function(event) {
+          if (this.hash !== "" ) {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+              window.location.hash = hash;
+            });
+          }
+        });
+      });
+    </script>
   </body>
 </html>
