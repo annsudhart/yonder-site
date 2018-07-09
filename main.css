@@ -9,27 +9,43 @@
 .header-element h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 64px;
-  font-weight: semi-bold;
+  font-weight: bold;
   padding: 10px 0 35px 0;
+  color: white;
+  margin-top: 5%;
 }
 
-#header {
+.header {
   margin-top: 45px;  
   background-color: gray;
+  background-image: url("./header-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   max-width: 100%;
+  margin-right: 0px;
+  padding-top: 30px;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 5px;
 }
 
 .container {
   margin: 0;
   padding: 0;
   margin-top:-45px;
-  max-width:100%;
+  min-width:100%;
 }
 
 #donate {
-  color: black;
-  background-color: white;
-  border-color: black;
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  border-radius: .75rem;
   -webkit-transition: .5s all;   
   -webkit-transition-delay: .15s; 
   -moz-transition: .5s all;   
@@ -43,13 +59,45 @@
 }
 
 #donate:hover {
-  color: #fff;
-  background-color: #333;
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
   -webkit-transition-delay: 0s;
   -moz-transition-delay: 0s;
   -ms-transition-delay: 0s;
   -o-transition-delay: 0s;
   transition-delay: 0s;
+}
+
+#arrow-container {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#arrow {
+  border: solid #fff;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 7px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-bottom: 5px;
+}
+
+.dropdown-item {
+  color: rgba(255,255,255,.5);
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: #343a40;
+}
+
+@media only screen and (min-width: 1081px) {
+  #vid {
+    padding-right: 50px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -62,7 +110,7 @@
       padding:0;
     }
     
-    #header {
+    .header {
       height: auto;
     }
     
@@ -81,7 +129,7 @@
       border-radius: 0;
     }
   
-    #header {
+    .header {
       height: auto;
       margin-bottom: 15px;
       max-width:100%;
