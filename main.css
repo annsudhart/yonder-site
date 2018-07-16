@@ -22,20 +22,6 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
-.header {
-  margin-top: 45px;  
-  background-color: gray;
-  background-image: url("./header-background.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 100%;
-  min-height: 70%;
-  margin-right: 0px;
-  padding-top: 30px;
-}
-
 .row {
   margin-right: 0px;
   margin-left: 0px;
@@ -49,23 +35,6 @@
   min-width:100%;
 }
 
-#donate {
-  color: #fff;
-  background-color: #f00;
-  border-color: #e00;
-  border-radius: .75rem;
-  -webkit-transition: .5s all;   
-  -webkit-transition-delay: .15s; 
-  -moz-transition: .5s all;   
-  -moz-transition-delay: .15s; 
-  -ms-transition: .5s all;   
-  -ms-transition-delay: .15s; 
-  -o-transition: .5s all;   
-  -o-transition-delay: .15s; 
-  transition: .5s all;   
-  transition-delay: .15s; 
-}
-
 #donate:hover {
   color: #f00;
   background-color: #fff;
@@ -77,32 +46,14 @@
   transition-delay: 0s;
 }
 
-#arrow-container {
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-#arrow {
-  border: solid #fff;
-  border-width: 0 7px 7px 0;
-  display: inline-block;
-  padding: 7px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  margin-bottom: 5px;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.blurb {
+.section {
   padding: 20px 50px 50px 20px;
   margin-left: 60px;
   margin-right: 50px;
-  margin: 0px 50px 40px 60px; 
+  margin: 20px 50px 40px 40px; 
 }
 
-.blurb h1 {
+.section h1 {
   margin-bottom: 20px;
 }
 
@@ -112,16 +63,6 @@
 
 .nav-item {
   background-color: rgb(52, 58, 64);
-}
-#signature {
-  float: right;
-  margin-top: 20px;
-}
-
-@media only screen and (min-width: 1081px) {
-  #vid {
-    padding-right: 50px;
-  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -138,13 +79,6 @@
       height: auto;
     }
     
-    #vid {
-      width: 100%;
-    }
-    
-     .embed-responsive embed-responsive-16by9 {
-      style="max-width:560px; max-height:75%;"
-    }   
 }
 
 @media only screen and (max-width: 1080px) {
@@ -161,7 +95,7 @@
   
   .header-element h1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 48px;
+    font-size: 64px;
     font-weight: semi-bold;
     margin-top: 0px;
     margin-bottom: 25px;

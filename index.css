@@ -1,0 +1,139 @@
+.header {
+  margin-top: 45px;  
+  background-color: gray;
+  background-image: url("./header-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 70%;
+  margin-right: 0px;
+  padding-top: 30px;
+}
+
+#donate {
+  color: #fff;
+  background-color: #f00;
+  border-color: #e00;
+  border-radius: .75rem;
+  -webkit-transition: .5s all;   
+  -webkit-transition-delay: .15s; 
+  -moz-transition: .5s all;   
+  -moz-transition-delay: .15s; 
+  -ms-transition: .5s all;   
+  -ms-transition-delay: .15s; 
+  -o-transition: .5s all;   
+  -o-transition-delay: .15s; 
+  transition: .5s all;   
+  transition-delay: .15s; 
+}
+
+#arrow-container {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#arrow {
+  border: solid #fff;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 7px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#signature {
+  float: right;
+  margin-top: 20px;
+}
+
+#rocket {
+  margin: 0 auto;
+}
+
+.placeholder {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#teams {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+#teams p {
+  margin-bottom: 3rem;
+}
+
+.subteam {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: transparent;
+}
+
+.row h4 {
+  text-align: center;
+  font-size: 1.5em;
+  background: transparent;
+}
+
+.all-teams {
+  margin-top: 25px;
+  background-image: url(./teams-background.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 70%;
+}
+
+.all-teams .row {
+  background: transparent;
+}
+
+#rocket {
+  background-img: url('./rocket.jpg');
+}
+
+@media only screen and (min-width: 1081px) {
+  #vid {
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+
+    #vid {
+      width: 100%;
+    }
+    
+     .embed-responsive embed-responsive-16by9 {
+      style="max-width:560px; max-height:75%;"
+    }
+    
+    #rocket {
+      height:0;
+      width:0;
+    }
+    
+    .placeholder {
+      width: 100px;
+      height: 100px;
+    }
+    
+    #teams p {
+      margin-bottom: 1.5rem;
+    }
+    
+}
