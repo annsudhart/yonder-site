@@ -27,6 +27,18 @@
   -o-transition-delay: .15s; 
   transition: .5s all;   
   transition-delay: .15s; 
+  margin-bottom: 20px;
+}
+
+#donate:hover {
+  color: #f00;
+  background-color: #fff;
+  border-color: #fff;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
 }
 
 #arrow-container {
@@ -77,6 +89,11 @@
   margin-top: 10px;
   margin-bottom: 10px;
   background: transparent;
+}
+
+.col-md-6 {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .row h4 {

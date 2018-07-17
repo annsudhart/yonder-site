@@ -35,16 +35,6 @@
   min-width:100%;
 }
 
-#donate:hover {
-  color: #f00;
-  background-color: #fff;
-  border-color: #fff;
-  -webkit-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  -ms-transition-delay: 0s;
-  -o-transition-delay: 0s;
-  transition-delay: 0s;
-}
 
 .section {
   padding: 20px 50px 50px 20px;
