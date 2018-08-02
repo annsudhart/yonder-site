@@ -74,6 +74,7 @@
   margin: 0 auto;
   margin-top: 5px;
   margin-bottom: 5px;
+  background-color: transparent;
 }
 
 #teams {
@@ -156,6 +157,7 @@
     .placeholder {
       width: 100px;
       height: 100px;
+      background-color: none;
     }
     
     #teams p {
