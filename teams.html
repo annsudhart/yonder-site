@@ -9,7 +9,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script type="text/javascript">
-      
       $(document).ready(function() {
         $('#arrow').click(function() {
           var hash = this.hash;
@@ -57,11 +56,56 @@
         </ul>
       </div>
     </nav>
-    <div class="container">
-      <div class="section">
-        <h3>Teams</h3>
-        <!-- TODO add cards or icons-->
+    <div class="header">
+      <h1>Teams</h1>
+      <h4>We have several teams. Check them out:</h4>
+      <div class="row" id="team-cards">
+        <div class="card bg-dark border-0" >
+          <img class="card-img-top" src="motions-team.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Motions</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          </div>
+        </div>
+        <div class="card bg-dark border-0" >
+          <img class="card-img-top" src="science-team.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Science</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          </div>
+        </div>
+        <div class="card bg-dark border-0" >
+          <img class="card-img-top" src="psec-team.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Power Systems and Electrical Components</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          </div>
+        </div>
+        <div class="card bg-dark border-0" >
+          <img class="card-img-top" src="software-team.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Software and Sensing</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          </div>
+        </div>
+        <div class="card bg-dark border-0" >
+          <img class="card-img-top" src="business-team.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Business and Public Relations</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          </div>
+        </div>
+      <!--
+        <ul class="flex-container">
+          <a href="#motions"><li class="flex-item">Motions</li></a>
+          <a href="#science"><li class="flex-item">Science</li></a>
+          <a href="#psec"><li class="flex-item">Power Systems and Electrical Components</li></a>
+          <a href="#software"><li class="flex-item">Software and Sensing</li></a>
+          <a href="#business"><li class="flex-item">Business and Public Relations</li></a>
+        </ul> -->
       </div>
+    </div>
+    <div class="container">
       <div id="motions" class="section">
         <h3>Motions</h3>
       </div>
