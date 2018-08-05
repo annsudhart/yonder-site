@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+  <head>
+    <title> Yonder Dynamics </title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#arrow').click(function() {
+          $('html, body').animate({
+            scrollTop: $("#mission").offset().top
+          }, 800, function() {
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Yonder Dynamics</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./teams.html" target="_blank">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.yonderdynamics.space/urc/" target="_blank">URC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.yonderdynamics.space/new-page/">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.yonderdynamics.space/jobs/">Recruitment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.yonderdynamics.space/sponsorship/">Sponsorship</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row row-eq-height header">
+        <div class="col-md-6 header-element">
+          <h1>Dream <br> Bigger</h1>
+          <a class="btn btn-lg btn-primary" id="donate" href= "#">Support Us</a>
+        </div>
+        <div class="col-md-6 header-element" id="vid">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l0PKkQjEi-k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>></iframe>
+          </div>
+        </div>
+        <div id="arrow-container">
+          <a href="#mission"><div id="arrow"></div></a>
+        </div>        
+      </div>
+      <div id="mission" class="section">
+        <h1>Our Mission</h1>
+        <p>Yonder Dynamics is a student robotics organization at UC San Diego formally established in fall 2016. Last year, as our primary project, 
+           we designed and built an autonomous Mars rover for the annual University Rover Challenge (URC), a prestigious international competition 
+           for college students. Out of 82 semifinalist teams from 13 different countries, Yonder Dynamics 
+           made UC San Diego history by becoming the first team from our school and the only team from the UC system in 2017 to make it to the 
+           final round. For this achievement, we were featured on local news and by our school newsletter. 
+           Our rover Courage, built in a record three months, finished in 29th place.
+        </p>
+        <p>
+          Above all, our people are our mission. We believe in developing individuals from the ground up to prepare them for their 
+          future endeavors. Now with over sixty active members from a 
+          variety of backgrounds, we pride ourselves on inclusivity–robotics is for everyone.
+        </p>
+        <p id="signature">- Yonder Dynamics Team</p>
+      </div>
+      <div id="teams" class="section">
+        <h1>Subteams</h1>
+        <p>Here at Yonder, each of our members is placed into one of six teams. Five of these are subteams for our URC project; another, 
+           Yonder Edge (formerly Research and Development) works on projects that are unrelated to our Mars rover. Each team has its leader who manages 
+           projects and meetings, but we believe that all of our members should be able to fully participate by bringing their ideas to the table. 
+           For a more detailed look into our URC teams, click on the "Learn More" under each team below.</p>
+      </div>
+      <div class="all-teams">
+        <div class="row">
+          <div class= "col-md-12 subteam">
+            <div class="placeholder" id="rocket">
+              <img src="./rocket.jpg"/>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 subteam">
+            <img src="./motions.svg" class="placeholder"/>
+            <h4>Motions</h4>
+          </div>
+          <div class="col-md-6 subteam">
+            <img src="./science.svg" class="placeholder"/>
+            <h4>Science</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 subteam">
+            <img src="./power_sys_and_elec_components.svg" class="placeholder"/>
+            <h4>Power Systems and <br>Electrical Components</h4>
+          </div>
+          <div class="col-md-6 subteam">
+            <img src="./software_sensors.svg" class="placeholder"/>
+            <h4>Software <br>and Sensing</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class= "col-md-12 subteam">
+            <img src="./business_pr.svg" class="placeholder"/>
+            <h4>Business and PR</h4>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="contact">
+        <h1>Contact Information</h1>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <h2> &#9742; </h2>
+            <p> Phone number here </p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <h2>&#9993;</h2>
+            <p> Email here </p>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+  </body>
+</html>
