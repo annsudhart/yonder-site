@@ -31,7 +31,10 @@
 }
 
 .card-img-top {
-  width: 100%;
+  width: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .container {
