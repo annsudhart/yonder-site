@@ -23,6 +23,7 @@
 #team-cards {
   margin: 0 auto;
   width: fit-content;
+  justify-content: center;
 }
 
 .card {
