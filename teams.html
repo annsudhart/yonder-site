@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -46,100 +47,73 @@
     <div class="header">
       <h1>Teams</h1>
       <h4>We have several teams. Check them out:</h4>
-      <div class="row" id="team-cards">
-        <div class="card bg-dark border-0" >
-          <img class="card-img-top" src="motions-team.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">Motions</h4>
-            <p class="card-text">Rover design and construction.</p>
-          </div>
-        </div>
-        <div class="card bg-dark border-0" >
-          <img class="card-img-top" src="science-team.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">Science</h4>
-            <p class="card-text">Experimental design for tasks like soil sample analyzing.</p>
-          </div>
-        </div>
-        <div class="card bg-dark border-0" >
-          <img class="card-img-top" src="psec-team.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">PSEC</h4>
-            <p class="card-text">Rover functional design and electrical component design.</p>
-          </div>
-        </div>
-        <div class="card bg-dark border-0" >
-          <img class="card-img-top" src="software-team.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">Software and Sensing</h4>
-            <p class="card-text">Rover intelligence and awareness design.</p>
-          </div>
-        </div>
-        <div class="card bg-dark border-0" >
-          <img class="card-img-top" src="business-team.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">Business and PR</h4>
-            <p class="card-text">Sponsorships, finances, and public relations management.</p>
-          </div>
-        </div>
-      </div>
     </div>
+    
     <div class="container">
-      <div id="motions" class="section row">
-        <div class="col-md-6 team-info">
-          <h1>Motions</h1>
-          <h6>Kyle Gillespie</h6>
-          <ul>
-            <li>Megan Elliott</li>
-            <li>Euan Tan</li>
-            <li>Stuart Sardo</li>
-            <li>Michael Cornejo</li>
-            <li>Loveneet Dhillon</li>
-            <li>Lucas Jonasch</li>
-            <li>John Tayag</li>
-            <li>Tzu-Tying (Alex) Hung</li>
-            <li>Reem Mohanty</li>
-            <li>Mayuki Sasagawa</li>
-            <li>Aliya Kassam</li>
-          </ul>
+      <div class="accordion" id="teamlist">
+        <div class="card">
+          <div class="card-header" id="motions-heading">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#motion-collapse" aria-expanded="false" aria-controls="motion-collapse">
+              <h5 class="mb-0">Motions</h5>
+            </button>
+          </div>
+          <div id="motion-collapse" class="collapse" aria-labelledby="motions-heading" data-parent="#teamlist">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
         </div>
-        <div class=" team-image col-md-6">
-          <img src="./motions_w.svg"/>
+        <div class="card">
+          <div class="card-header" id="science-heading">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#science-collapse" aria-expanded="false" aria-controls="science-collapse">
+             <h5 class="mb-0">Sciences</h5>
+            </button>
+          </div>
+          <div id="science-collapse" class="collapse" aria-labelledby="science-heading" data-parent="#teamlist">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="psec-heading">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#psec-collapse" aria-expanded="false" aria-controls="psec-collapse">
+              <h5 class="mb-0">Power Systems and Electrical Components</h5>
+            </button>
+          </div>
+          <div id="psec-collapse" class="collapse" aria-labelledby="psec-heading" data-parent="#teamlist">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="software-heading">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#software-collapse" aria-expanded="false" aria-controls="software-collapse">
+              <h5 class="mb-0">Software and Systems</h5>
+            </button>
+          </div>
+          <div id="software-collapse" class="collapse" aria-labelledby="software-heading" data-parent="#teamlist">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="business-heading">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#business-collapse" aria-expanded="false" aria-controls="business-collapse">
+              <h5 class="mb-0">Business and Public Relations</h5>
+            </button>
+          </div>
+          <div id="business-collapse" class="collapse" aria-labelledby="business-heading" data-parent="#teamlist">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
         </div>
       </div>
-      <div id="science" class="section row">
-        <div class=" team-image col-md-6">
-          <img src="./science_w.svg"/>
-        </div>
-        <div class="col-md-6 team-info">
-          <h1>Science</h1>
-        </div>
-      </div>
-      <div id="psec" class="section row">
-        <div class="team-image col-md-6">
-          <img src="./power_sys_and_elec_components_w.svg"/>
-        </div>
-        <div class="col-md-6 team-info">
-          <h1>Power Systems and Electrical Components</h1>
-        </div> 
-      </div>
-      <div id="software" class="section row">
-        <div class="col-md-6 team-info">
-          <h1>Software and Sensing</h1>
-        </div>
-        <div class="team-image col-md-6">
-          <img src="./software_sensors_w.svg"/>
-        </div>    
-      </div>
-      <div id="business" class="section row">
-        <div class="col-md-6 team-info">
-          <h1>Business and Public Relations</h1>
-        </div>
-        <div class="team-image col-md-6">
-          <img src="./business_pr_w.svg"/>
-        </div>
-      </div>
-    </div>
+    </div>   
+    
 
   </body>
 </html>
