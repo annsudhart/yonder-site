@@ -5,8 +5,9 @@
   font-size: 4em;
 }
 
-.header h4 {
+.header p {
   text-align: center;
+  font-size: 1.25em;
 }
 
 #team-cards {
@@ -42,9 +43,17 @@
   min-width: 90%;
 }
 
-.card-header h5 {
+.card-header .btn h5 {
   text-decoration: none;
   float: left;
+  font-size: 26px;
+}
+
+.card-header img {
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin-right: 5px;
 }
 
 .btn-link {
@@ -53,7 +62,22 @@
   width: 100%;
 }
 
-h5:hover {
+.card-header .btn h5:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.team-members {
+  list-style: none;
+}
+
+.card-body h6 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .card-header .btn h5 {
+    font-size: 18px;
+  }
 }
