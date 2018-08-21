@@ -54,6 +54,10 @@
   background-color: rgb(52, 58, 64);
 }
 
+#contact div div i {
+  font-size: 48px;
+}
+
 @media only screen and (max-width: 850px) {
     /* For mobile phones: */
     .container .div {
