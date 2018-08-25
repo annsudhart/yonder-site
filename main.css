@@ -1,6 +1,7 @@
- html, body {
+html, body {
   background-color: #000;
   color: #fff;
+  height: fit-content;
 }
 
 .row {
@@ -29,11 +30,33 @@
 }
 
 .navbar-collapse {
-  background-color: rgb(52, 58, 64);
+  background-color: transparent;
 }
 
 .nav-item {
-  background-color: rgb(52, 58, 64);
+  background-color: transparent;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url('menu-icon.svg');
+}
+
+.nav-link:hover {
+  color: #9B7F9B;
+}
+
+.navbar-brand:hover {
+  color: #9B7F9B;
 }
 
 #contact div div i {
