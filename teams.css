@@ -1,4 +1,9 @@
-
+body {
+  background-image: url('constellation.svg'), linear-gradient(#460055, #140055);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 .header h1 {
   text-align: center;
@@ -34,9 +39,10 @@
 }
 
 .accordion .card {
-  background-color: #333;
+  background-color: transparent;
   min-width: 95%;
   margin: 0 auto;
+  border-color: #AA8BB1;
 }
 
 .card-header {
@@ -63,8 +69,12 @@
 }
 
 .card-header .btn h5:hover {
-  color: #fff;
+  color: #AA8BB1;
   text-decoration: none;
+}
+
+.card-header .btn:hover {
+  color: #AA8BB1;
 }
 
 .team-members {
