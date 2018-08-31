@@ -47,6 +47,7 @@ body {
 
 .card-header {
   min-width: 90%;
+  border-bottom: 0
 }
 
 .card-header .btn h5 {
