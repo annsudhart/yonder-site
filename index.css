@@ -10,6 +10,8 @@
   min-height: 100%;
   margin-right: 0px;
   padding-top: 30px;
+  padding-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 .header-element {
@@ -80,6 +82,14 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+#mission {
+  padding-top: 40px;
+}
+
+.embed-responsive {
+  margin-bottom: 15px;
+}
+
 #signature {
   float: right;
   margin-top: 20px;
@@ -131,19 +141,15 @@
 
 .all-teams {
   margin-top: 25px;
-  background-image: url(./teams-background.jpeg);
+  background-image: url(./teams-background.jpeg); /*  url(./constellation.svg), linear-gradient( #0c0c35, #0000ee, #0c0c35) */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  min-height: 70%;
+  height: 70%;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.all-teams .row {
-  background: transparent;
 }
 
 #contact {
@@ -152,6 +158,11 @@
   width: 100%;
   text-align: center;
   margin-bottom: 0px;
+}
+
+.all-teams object, .all-teams object img {
+  max-height: 800px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 1081px) {
