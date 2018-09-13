@@ -1,5 +1,4 @@
 .header {
-  margin-top: 25px;  
   background-color: gray;
   background-image: url("./header-background.jpg");
   background-attachment: fixed;
@@ -16,7 +15,7 @@
 
 .header-element {
   margin: 0 auto;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
   margin-top: 15px;
   text-align: center;
   display: block;
@@ -38,16 +37,16 @@
   background-color: #f00;
   border-color: #e00;
   border-radius: .75rem;
-  -webkit-transition: .5s all;   
-  -webkit-transition-delay: .15s; 
-  -moz-transition: .5s all;   
-  -moz-transition-delay: .15s; 
-  -ms-transition: .5s all;   
-  -ms-transition-delay: .15s; 
-  -o-transition: .5s all;   
-  -o-transition-delay: .15s; 
-  transition: .5s all;   
-  transition-delay: .15s; 
+  -webkit-transition: .5s all;
+  -webkit-transition-delay: .15s;
+  -moz-transition: .5s all;
+  -moz-transition-delay: .15s;
+  -ms-transition: .5s all;
+  -ms-transition-delay: .15s;
+  -o-transition: .5s all;
+  -o-transition-delay: .15s;
+  transition: .5s all;
+  transition-delay: .15s;
   margin-bottom: 20px;
 }
 
@@ -166,7 +165,7 @@
 }
 
 @media only screen and (min-width: 1081px) {
-  
+
   div.embed-responsive {
     width: 50%!important;
     height: 50%!important;
@@ -184,24 +183,24 @@
     #vid {
       width: 100%;
     }
-    
+
      .embed-responsive embed-responsive-16by9 {
       style="max-width:560px; max-height:75%;"
     }
-    
+
     #rocket {
       height:0;
       width:0;
     }
-    
+
     .placeholder {
       width: 100px;
       height: 100px;
       background-color: none;
     }
-    
+
     #teams p {
       margin-bottom: 1.5rem;
     }
-    
+
 }
