@@ -32,6 +32,13 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
+.navbar {
+  background-color: rgba(10, 10, 10, 0,2);
+  z-index: 2;
+  min-width: 100%;
+  position: fixed;
+}
+
 #donate {
   color: #fff;
   background-color: #f00;
@@ -81,7 +88,8 @@
 }
 
 #mission {
-  padding-top: 40px;
+  padding-top: 20px;
+  margin-top: 0px;
 }
 
 .embed-responsive {
