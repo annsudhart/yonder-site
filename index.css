@@ -181,15 +181,25 @@ html, body {
     width: 50%!important;
     height: 50%!important;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
 
   #vid {
     padding-right: 50px;
   }
+
+  p {
+    line-height: 1.75em;
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 850px) {
+
+  .header-element h1 {
+    font-size: 64px;
+  }
 
     #vid {
       width: 100%;
