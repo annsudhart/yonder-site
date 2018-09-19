@@ -1,7 +1,7 @@
 html, body {
   background-color: #000;
   color: #fff;
-  height: fit-content;
+  height: 100%;
 }
 
 .row {
@@ -21,7 +21,7 @@ html, body {
   padding: 20px 50px 50px 20px;
   margin-left: 60px;
   margin-right: 50px;
-  margin: 20px 50px 40px 40px; 
+  margin: 20px 50px 40px 40px;
 }
 
 .section h1 {
@@ -35,6 +35,8 @@ html, body {
 
 .nav-item {
   background-color: transparent;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .nav-link {
@@ -68,29 +70,29 @@ html, body {
     .container .div {
       padding:0;
     }
-    
+
     .col-lg-6 {
       padding:0;
     }
-    
+
     .header {
       height: auto;
     }
-    
+
 }
 
 @media only screen and (max-width: 1080px) {
-  
+
     .navbar {
       border-radius: 0;
     }
-  
+
     .header {
       height: auto;
       margin-bottom: 15px;
       max-width:100%;
     }
-  
+
   .header-element h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 64px;
@@ -105,7 +107,7 @@ html, body {
     .embed-responsive embed-responsive-16by9 {
       style="max-width:560px; max-height:50%;"
     }
-    
+
     .navbar-nav > li > a {
     /* (80px - line-height of 27px) / 2 = 26.5px */
     padding-top: 26.5px;

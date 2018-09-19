@@ -47,7 +47,6 @@
   -o-transition-delay: .15s;
   transition: .5s all;
   transition-delay: .15s;
-  margin-bottom: 20px;
 }
 
 #donate:hover {
