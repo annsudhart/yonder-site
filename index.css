@@ -73,12 +73,12 @@ html, body {
 }
 
 #arrow-container {
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0);
   text-align: center;
   padding-bottom: 20px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  right: 50%;
 }
 
 #arrow {
