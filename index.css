@@ -27,9 +27,8 @@ html, body {
 }
 
 .header-element h1 {
-  font-family: 'Open Sans', sans-serif;
   font-size: 108px;
-  font-weight: bold;
+  font-weight: 300;
   padding: 10px 0 35px 0;
   color: white;
   margin-top: 5%;

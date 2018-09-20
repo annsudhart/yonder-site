@@ -1,6 +1,12 @@
 html, body {
   background-color: #000;
   color: #fff;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 .row {
@@ -92,7 +98,6 @@ html, body {
     }
 
   .header-element h1 {
-    font-family: 'Open Sans', sans-serif;
     font-size: 64px;
     font-weight: semi-bold;
     margin-top: 0px;
