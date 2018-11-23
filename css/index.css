@@ -20,18 +20,23 @@ html, body {
 .header-element {
   margin: 0 auto;
   margin-bottom: 15px;
-  margin-top: 15px;
+  padding-top: 5%;
   text-align: center;
   display: block;
   background-color: rgba(0, 0, 0, 0);
 }
 
+.header-element img {
+  height: 12%;
+  width: 12%;
+  min-width: 100px;
+}
+
 .header-element h1 {
-  font-size: 108px;
+  font-size: 64px;
   font-weight: 300;
   padding: 10px 0 35px 0;
   color: white;
-  margin-top: 5%;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -197,31 +202,62 @@ html, body {
 
 @media only screen and (max-width: 850px) {
 
-  .header-element h1 {
-    font-size: 64px;
+  #vid {
+    width: 100%;
   }
 
-    #vid {
-      width: 100%;
-    }
+   .embed-responsive embed-responsive-16by9 {
+    style="max-width:560px; max-height:75%;"
+  }
 
-     .embed-responsive embed-responsive-16by9 {
-      style="max-width:560px; max-height:75%;"
-    }
+  #rocket {
+    height:0;
+    width:0;
+  }
 
-    #rocket {
-      height:0;
-      width:0;
-    }
+  .placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: none;
+  }
 
-    .placeholder {
-      width: 100px;
-      height: 100px;
-      background-color: none;
-    }
+  #teams p {
+    margin-bottom: 1.5rem;
+  }
 
-    #teams p {
-      margin-bottom: 1.5rem;
-    }
+}
+
+@media only screen and (min-height: 1000px) {
+
+  .header-element {
+    padding-top: 25%;
+  }
+
+  .header-element img {
+    height: 20%;
+    width: 20%;
+  }
+
+  .header-element h1 {
+    font-size: 108px;
+  }
+
+}
+
+@media only screen and (max-width: 560px) {
+  .header-element {
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (max-height: 480px) {
+
+  .header-element {
+    padding-top: 8%;
+  }
+
+  .header-element h1 {
+    font-size: 48px;
+  }
 
 }
