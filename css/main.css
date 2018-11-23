@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-toggler-icon {
-  background-image: url('menu-icon.svg');
+  background-image: url('../images/menu-icon.svg');
 }
 
 .nav-link:hover {
