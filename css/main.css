@@ -63,6 +63,35 @@ h1, h2, h3, h4, h5, h6 {
   color: #9B7F9B;
 }
 
+#donate {
+  color: #fff;
+  background-color: #rgba(0, 0, 0, 1);
+  border-color: #4e00b3;
+  border-width: 2px;
+  border-radius: .75rem;
+  -webkit-transition: .5s all;
+  -webkit-transition-delay: .15s;
+  -moz-transition: .5s all;
+  -moz-transition-delay: .15s;
+  -ms-transition: .5s all;
+  -ms-transition-delay: .15s;
+  -o-transition: .5s all;
+  -o-transition-delay: .15s;
+  transition: .5s all;
+  transition-delay: .15s;
+}
+
+#donate:hover {
+  color: #fff;
+  background-color: #4e00b3;
+  border-color: #4e00b3;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
 #contact div div i {
   font-size: 48px;
 }
